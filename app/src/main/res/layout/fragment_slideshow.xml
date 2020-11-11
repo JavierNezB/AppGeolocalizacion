@@ -24,8 +24,6 @@
             mapbox:mapbox_cameraTargetLng="-99.05"
             mapbox:mapbox_cameraZoom="18"/>
 
-
     </FrameLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

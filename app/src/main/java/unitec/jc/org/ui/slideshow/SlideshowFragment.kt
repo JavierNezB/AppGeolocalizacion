@@ -158,7 +158,7 @@ class SlideshowFragment : Fragment(), OnMapReadyCallback, PermissionsListener  {
         this.mapboxMap=mapboxMap
         //Despues de esto, ya deberia de aparecer el mapa en el zoom y las coordendas dadas peroo.
         //aqui pondremos el estilo del mapa
-        mapboxMap.setStyle(Style.Builder().fromUri("mapbox://styles/javi06/ckdkw3flt1h461itop6kwdabs")){
+        mapboxMap.setStyle(Style.Builder().fromUri("mapbox://styles/javi06/cke94rece0zu519och5rl7upe")){
             /*
         LA CEREZA DEL PASTEL!!!!!!!!!!!!!!!!!!
             */
