@@ -134,7 +134,7 @@ class SlideshowFragment : Fragment(), OnMapReadyCallback, PermissionsListener  {
         //Antes de invocar el token se de hacer en esta seccion antes del activit_main
         //sino lo haces te marcara error al ejecutar la app.
         //Todo lo que pusiste en el onCreate del mapa aqui lo pegaras
-        Mapbox.getInstance(requireContext(),"pk.eyJ1IjoiamF2aTA2IiwiYSI6ImNrZGdsdTFjMDF0N3kzMXBlMHFkNDd2emQifQ.1BFvcWatU2czsx8SY4bgNQ")
+        Mapbox.getInstance(requireContext(),"pk.")
 
         val root = inflater.inflate(R.layout.fragment_slideshow, container, false)
         return root
@@ -158,7 +158,7 @@ class SlideshowFragment : Fragment(), OnMapReadyCallback, PermissionsListener  {
         this.mapboxMap=mapboxMap
         //Despues de esto, ya deberia de aparecer el mapa en el zoom y las coordendas dadas peroo.
         //aqui pondremos el estilo del mapa
-        mapboxMap.setStyle(Style.Builder().fromUri("mapbox://styles/javi06/cke94rece0zu519och5rl7upe")){
+        mapboxMap.setStyle(Style.Builder().fromUri("mapbox://styles/")){
             /*
         LA CEREZA DEL PASTEL!!!!!!!!!!!!!!!!!!
             */
