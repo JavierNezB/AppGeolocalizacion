@@ -1,2 +1,2 @@
-# AppGeolocalizaci-n
+# AppGeolocalizacion
 Aplicación Móvil de geolocalización
